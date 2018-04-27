@@ -1,0 +1,4 @@
+[11-Oct-2017 09:38:43 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/devvrwbf/public_html/wp-content/plugins/hello.php on line 60
+[22-Jan-2018 12:50:00 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/devvrwbf/public_html/wp-content/plugins/hello.php on line 60
+[23-Jan-2018 06:10:15 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/devvrwbf/public_html/wp-content/plugins/hello.php on line 60
+[06-Mar-2018 16:01:10 Etc/GMT] PHP Fatal error:  Call to undefined function add_action() in /home/devvrwbf/public_html/wp-content/plugins/hello.php on line 60

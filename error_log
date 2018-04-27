@@ -1,0 +1,23 @@
+[17-Oct-2016 06:30:57 UTC] WordPress database error Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_unicode_520_ci,COERCIBLE) for operation '=' for query SELECT comment_ID FROM wpz6_comments WHERE comment_post_ID = 5 AND comment_parent = '0' AND comment_approved != 'trash' AND ( comment_author = 'Jugnu' AND comment_author_email = 'Jugnu.ag@gmail.com' ) AND comment_content = 'It\'s an amazing write up 👍🙏' LIMIT 1 made by wp_handle_comment_submission, wp_new_comment, wp_allow_comment
+[23-Oct-2016 16:14:37 UTC] WordPress database error Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_unicode_520_ci,COERCIBLE) for operation '=' for query SELECT comment_ID FROM wpz6_comments WHERE comment_post_ID = 93 AND comment_parent = '0' AND comment_approved != 'trash' AND ( comment_author = 'Riya' AND comment_author_email = 'drriya89@gmail.com' ) AND comment_content = 'Well said 👍' LIMIT 1 made by wp_handle_comment_submission, wp_new_comment, wp_allow_comment
+[23-Oct-2016 16:14:41 UTC] WordPress database error Illegal mix of collations (utf8_general_ci,IMPLICIT) and (utf8mb4_unicode_520_ci,COERCIBLE) for operation '=' for query SELECT comment_ID FROM wpz6_comments WHERE comment_post_ID = 93 AND comment_parent = '0' AND comment_approved != 'trash' AND ( comment_author = 'Riya' AND comment_author_email = 'drriya89@gmail.com' ) AND comment_content = 'Well said 👍' LIMIT 1 made by wp_handle_comment_submission, wp_new_comment, wp_allow_comment
+[24-Mar-2017 16:48:52 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home/devvrwbf/public_html/wp-includes/class-wp-xmlrpc-server.php on line 596
+[27-Mar-2017 17:34:56 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home/devvrwbf/public_html/wp-includes/class-wp-xmlrpc-server.php on line 596
+[18-Jun-2017 07:49:10 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/devvrwbf/public_html/wp-content/themes/simple-catch/functions/panel/customizer/customizer-sanitize-functions.php on line 109
+[18-Jun-2017 07:49:10 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/devvrwbf/public_html/wp-content/themes/simple-catch/functions/panel/customizer/customizer-sanitize-functions.php on line 131
+[18-Jun-2017 07:49:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/devvrwbf/public_html/wp-content/themes/simple-catch/functions/panel/customizer/customizer-sanitize-functions.php on line 109
+[18-Jun-2017 07:49:11 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/devvrwbf/public_html/wp-content/themes/simple-catch/functions/panel/customizer/customizer-sanitize-functions.php on line 131
+[18-Jun-2017 07:49:11 UTC] PHP Warning:  in_array() expects parameter 2 to be array, string given in /home/devvrwbf/public_html/wp-content/themes/simple-catch/functions/panel/customizer/customizer-sanitize-functions.php on line 109
+[18-Jun-2017 07:49:11 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/devvrwbf/public_html/wp-content/themes/simple-catch/functions/panel/customizer/customizer-sanitize-functions.php on line 131
+[30-Sep-2017 03:37:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%.6f
+	ORDER BY attackLogTime DESC
+	LIMIT 10' at line 2 for query SELECT SQL_CALC_FOUND_ROWS * FROM wpz6_wfHits
+	WHERE action = 'blocked:waf' AND attackLogTime > %.6f
+	ORDER BY attackLogTime DESC
+	LIMIT 10 made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, wordfence::processAttackData
+[30-Sep-2017 03:37:19 UTC] WordPress database error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%.6f
+LIMIT 1504620059' at line 3 for query SELECT SQL_CALC_FOUND_ROWS * FROM wpz6_wfHits
+WHERE action in ('blocked:waf', 'learned:waf', 'logged:waf', 'blocked:waf-always')
+AND attackLogTime > %.6f
+LIMIT 1504620059 made by do_action_ref_array, WP_Hook->do_action, WP_Hook->apply_filters, call_user_func_array, wordfence::processAttackData
+[09-Jan-2018 11:05:26 UTC] Error checking in buffer: The buffer you checked in was not checked out
